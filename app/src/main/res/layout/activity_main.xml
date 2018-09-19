@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/i1"
+    tools:context="com.example.rpnaren.weather.MainActivity">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:padding="5dp"
+            android:paddingStart="23dp"
+            android:text="Weather in your Location"
+            android:textColor="@android:color/background_dark"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="357dp"
+            android:layout_height="100dp"
+            android:gravity="bottom"
+            android:textSize="30sp" />
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="357dp"
+            android:layout_height="80dp"
+
+            android:textSize="30sp" />
+        <TextView
+            android:id="@+id/t3"
+            android:layout_width="357dp"
+            android:layout_height="wrap_content"
+
+            android:textSize="30sp" />
+        <TextView
+            android:id="@+id/t4"
+            android:layout_width="357dp"
+            android:layout_height="wrap_content"
+
+            android:textSize="30sp" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
